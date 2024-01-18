@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gross salary</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var salary=parseInt(prompt("Enter salary:-"));
+
+        var HRA= salary*10/100;
+        var DA= salary*5/100;
+        var TA= salary*8/100;
+
+        var ans = HRA+DA+TA+salary;
+
+        document.write(`<h1>ANS = ${ans}</h1>`);
+    </script>
+</body>
+</html>
